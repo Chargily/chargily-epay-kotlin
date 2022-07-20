@@ -17,10 +17,10 @@ I will add this to MAVEN As soon as possible
 
       GlobalScope.launch {
                 var response =  chargiliClient.creatPayment(invoice)
-                withContext(Dispatchers.Main){
-                // this will open an app chooser for web Browser
-                  startActivity(Intent(Intent.ACTION_VIEW).setData(Uri.parse(response.body()?.checkout_url.toString())))
-                }
+       
+              var checkout =   response.body()?.checkout_url.toString())
+              println(checkout)
+             
 
 ![Chargily ePay Gateway](https://raw.githubusercontent.com/Chargily/epay-gateway-php/main/assets/banner-1544x500.png "Chargily ePay Gateway")
 
