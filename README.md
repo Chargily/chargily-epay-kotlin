@@ -1,6 +1,9 @@
 # chargily-epay-kotlin
 Kotlin Library for Chargily ePay Gateway
 
+FYI this module uses async await 
+
+
 I will add this to MAVEN As soon as possible
 
         // creat a client Instance
