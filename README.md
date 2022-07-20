@@ -1,7 +1,7 @@
 # chargily-epay-kotlin
 Kotlin Library for Chargily ePay Gateway
 
-I will add this to MAVEn As soon as possible
+I will add this to MAVEN As soon as possible
 
         // creat a client Instance
         val chargiliClient : Chargily = Chargily("Put your API KEY HERE ")
